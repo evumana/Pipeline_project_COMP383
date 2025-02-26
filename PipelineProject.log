@@ -1,0 +1,26 @@
+Donor 1 (2dpi) had 2259287 read pairs before Bowtie2 filtering and 1562296 after.
+Donor 1 (6dpi) had 2004530 read pairs before Bowtie2 filtering and 1249472 after.
+SPAdes command used for assembly: spades.py -k 99 -t 2 --only-assembler --pe1-1 six_dpi_mapped_1.fq --pe1-2 six_dpi_mapped_2.fq --pe2-1 two_dpi_mapped_1.fq --pe2-2 two_dpi_mapped_2.fq -o SPADES_assembly/
+There are 43 contigs > 1000 bp in the assembly
+There are 178289 bp in the assembly
+sacc   pident  length  qstart  qend    sstart  send    bitscore    evalue  stitle
+EF999921.1	99.989	17456	14	17469	102829	120284	32225	0.0	EF999921.1 Human herpesvirus 5 strain TB40/E clone TB40-BAC4, complete sequence
+
+KF297339.1	99.989	17456	14	17469	70788	88243	32225	0.0	KF297339.1 Human herpesvirus 5 strain TB40/E clone Lisa, complete genome
+
+MT070140.1	99.989	17456	14	17469	70559	88014	32225	0.0	MT070140.1 UNVERIFIED: Human betaherpesvirus 5 isolate P10, complete genome
+
+MW439039.1	99.989	17456	14	17469	70187	87642	32225	0.0	MW439039.1 Human betaherpesvirus 5 strain TB40/EE, complete genome
+
+MW439038.1	99.989	17456	14	17469	70187	87642	32225	0.0	MW439038.1 Human betaherpesvirus 5 strain TB40/EF, complete genome
+
+KX544839.1	99.954	17456	14	17469	102809	120260	32188	0.0	KX544839.1 Human betaherpesvirus 5 isolate TB40-E_UNC, complete genome
+
+MT044484.1	99.937	17456	14	17469	70140	87591	32171	0.0	MT044484.1 Human betaherpesvirus 5 strain HAN-SOT4, complete genome
+
+MT649469.1	99.731	17462	14	17469	70273	87731	31977	0.0	MT649469.1 Human betaherpesvirus 5 strain HAN-SCT18, complete genome
+
+KJ361955.1	99.702	17465	14	17469	70093	87556	31955	0.0	KJ361955.1 Human herpesvirus 5 strain HAN33, complete genome
+
+GU179291.1	99.697	17465	14	17469	70211	87672	31948	0.0	GU179291.1 Human herpesvirus 5 strain AF1, complete genome
+
