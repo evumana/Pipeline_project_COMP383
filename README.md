@@ -1,7 +1,5 @@
 # Pipeline_project_COMP383
 
-## Description
-
 ## Problem 1: Retrieving Data
 
 The links are from the SRA database under the data access tab
@@ -29,7 +27,7 @@ Then run the command
 
 "python3 pipeline_proj_final.py -i sampledata_1.fastq sampledata_2.fastq sampledata2_1.fastq sampledata2_2.fastq"
 
-##Dependencies 
+## Dependencies 
 
 -Biopython
 
