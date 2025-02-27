@@ -19,14 +19,26 @@ Donor 1 (6dpi): 'fasterq-dump SRR5660033'
 ## To run the Script 
 clone the repo with 
 
-'git clone https://github.com/evumana/Pipeline_project_COMP383'
+'git clone https://github.com/evumana/Pipeline_project_COMP383.git'
 
 The repo contains 4 samples of test data and a python script.
 
-Move the all 4 samples of test data and the python script to your home.
+Move all 4 samples of test data and the python script to your home.
 
 Then run the command 
 
 "python3 pipeline_proj_final.py -i sampledata_1.fastq sampledata_2.fastq sampledata2_1.fastq sampledata2_2.fastq"
 
+##Dependencies 
 
+-Biopython
+
+-BLAST+
+
+-Bowtie 2
+
+-SPAdes
+
+-NCBI datasets
+
+-SRA toolkit 
