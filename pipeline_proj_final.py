@@ -6,7 +6,7 @@ from Bio import SeqIO
 #command line arguments parser 
 def parse_cli_args(cli_args=None):
     parser = argparse.ArgumentParser(
-        description="Wrapper script that runs a pipeline to analyze a virus genome"
+        description="ADD TITLE OF SCRIPT HERE (shows on help -h)"
     )
     parser.add_argument("-i", "--input", help="input files", nargs="+", required=True)
     return parser.parse_args(cli_args)
