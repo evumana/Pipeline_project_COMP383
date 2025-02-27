@@ -1,8 +1,8 @@
 Donor 1 (2dpi) had 2259287 read pairs before Bowtie2 filtering and 1562296 after.
 Donor 1 (6dpi) had 2004530 read pairs before Bowtie2 filtering and 1249472 after.
 SPAdes command used for assembly: spades.py -k 99 -t 2 --only-assembler --pe1-1 six_dpi_mapped_1.fq --pe1-2 six_dpi_mapped_2.fq --pe2-1 two_dpi_mapped_1.fq --pe2-2 two_dpi_mapped_2.fq -o SPADES_assembly/
-There are 43 contigs > 1000 bp in the assembly
-There are 178289 bp in the assembly
+There are 64 contigs > 1000 bp in the assembly
+There are 377649 bp in the assembly
 sacc   pident  length  qstart  qend    sstart  send    bitscore    evalue  stitle
 EF999921.1	99.989	17456	14	17469	102829	120284	32225	0.0	EF999921.1 Human herpesvirus 5 strain TB40/E clone TB40-BAC4, complete sequence
 
