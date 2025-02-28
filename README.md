@@ -25,7 +25,7 @@ Move all 4 samples of test data and the python script to your home.
 
 Then run the command 
 
-"python3 pipeline_proj_final.py -i sampledata_1.fastq sampledata_2.fastq sampledata2_1.fastq sampledata2_2.fastq"
+"python3 pipeline_proj_final.py -i sampledata30_1.fastq sampledata30_2.fastq sampledata33_1.fastq sampledata33_2.fastq"
 
 ## Dependencies 
 
