@@ -6,7 +6,7 @@ from Bio import SeqIO
 #command line arguments parser 
 def parse_cli_args(cli_args=None):
     parser = argparse.ArgumentParser(
-        description="ADD TITLE OF SCRIPT HERE (shows on help -h)"
+        description="Wrapper script that runs a pipeline to analyze a virus genome"
     )
     parser.add_argument("-i", "--input", help="input files", nargs="+", required=True)
     return parser.parse_args(cli_args)
@@ -203,7 +203,7 @@ def main():
         samp_fw2 = ""
         samp_rv2 = ""
         for s in sample_group:
-            if s.startswith('sampledata_'):
+            if s.startswith('sampledata30_'):
                 if s.endswith('1.fastq'):
                     samp_fw1 = s
                 else:
@@ -247,3 +247,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
